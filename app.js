@@ -8,7 +8,7 @@ var app = express();
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
-//gets the / route and renders home for that route as requested by Michael
+//gets the / route and renders home for that route through a callback function as requested by Michael
 app.get('/', function (req, res) {
     res.render('home');
 });
