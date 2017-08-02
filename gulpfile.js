@@ -9,6 +9,8 @@ var gulp    = require ('gulp')
 gulp.task('default', function () {
   gulp.watch('./sass/*.scss', ['sass'])
   gulp.watch('./views/*.handlebars', ['handlebars'])
+  gulp.watch('./public/css/*.css', ['live'])
+  gulp.watch('./public/js/*.js', ['live'])
 });
 //make a gulp task to copy a file to a folder
 gulp.task('sass', function() {
