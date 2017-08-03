@@ -13,6 +13,10 @@ app.get('/', function (req, res) {
     res.render('home');
 });
 
+app.get('/login', function (req, res) {
+    res.render('login');
+});
+
 //the listening port. this command STARTS the server, and sets it to port 80 which is the default port for http
 //the function() is a callback intentionally left blank. it is the callback for the function: app.listen
 //read both for info on callbacks they are ESSENTIAL

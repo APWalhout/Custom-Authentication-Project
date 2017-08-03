@@ -25,8 +25,10 @@
   "homepage": "https://github.com/APWalhout/Custom-Authentication-Project#readme",
   "dependencies": {
     "bcrypt": "latest",
+    "bluebird": "^3.5.0",
     "bulma": "^0.5.0",
     "express": "latest",
+    "express-handlebars": "^3.0.0",
     "gulp": "latest",
     "gulp-connect": "latest",
     "gulp-sass": "latest",
